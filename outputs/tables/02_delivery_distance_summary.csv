@@ -1,0 +1,6 @@
+﻿항목,값
+delivery_days 평균,12.348
+delivery_days 최소,0.863
+delivery_days 최대,59.478
+distance_km vs total_weight_kg 상관계수(n=14946),-0.0058
+distance_km vs total_freight_brl 상관계수(n=14948),0.3329

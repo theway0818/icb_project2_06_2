@@ -1,0 +1,17 @@
+﻿열이름,구분,사유
+order_id,식별자,주문 식별용 해시값. 수치적 의미 없음 (데이터 보호 3)
+delivery_days,목표 변수,예측 대상(배송 소요일수)
+customer_state,예측에 사용,주문 시점에 이미 확정된 배송지 지역
+seller_state,예측에 사용,주문 시점에 이미 확정된 발송지 지역
+distance_km,예측에 사용,고객/판매자 지역으로 주문 시점에 계산 가능한 거리
+item_count,예측에 사용,주문 시점에 확정되는 상품 수량
+seller_count,예측에 사용,주문 시점에 확정되는 판매자 수
+total_price_brl,예측에 사용,주문 시점에 확정되는 상품 금액
+total_freight_brl,예측에 사용,주문 시점에 확정되는 배송비
+total_weight_kg,예측에 사용,주문 시점에 확정되는 상품 총중량
+total_volume_l,예측에 사용,주문 시점에 확정되는 상품 총부피
+primary_category,예측에 사용,주문 시점에 확정되는 대표 상품 카테고리
+purchase_weekday,예측에 사용,주문 시점 타임스탬프에서 파생된 요일
+purchase_hour,예측에 사용,주문 시점 타임스탬프에서 파생된 시각
+order_purchase_timestamp,예측에서 제외,원본 형태로는 미사용. purchase_weekday/purchase_hour로 파생하여 대신 사용
+review_score,예측에서 제외,요청에 따라 제외 + 배송 완료 후에 남는 정보라 예측 시점에 알 수 없음(데이터 보호 4)
